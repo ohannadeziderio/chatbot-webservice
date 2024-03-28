@@ -27,7 +27,7 @@ async function sendMessage(message: string) {
     return data.message;
   } catch (error) {
     console.error(error);
-    return "Desculpe, não consegui entender sua mensagem.";
+    return "Sorry, I can't undestand your message.";
   }
 }
 
@@ -133,7 +133,7 @@ export default function Home() {
         {isBotResponding && (
           <div className="flex justify-self-start pb-6">
             <div className="animate-pulse bg-gray-300 rounded-lg p-2 max-w-md">
-              <span>O bot está processando...</span>
+              <span>The bot is thinking...</span>
             </div>
           </div>
         )}
@@ -144,7 +144,7 @@ export default function Home() {
             value={inputValue}
             onChange={handleInputChange}
             onKeyDown={handleKeyDown}
-            placeholder="Digite sua mensagem..."
+            placeholder="Type your message..."
             className="w-full rounded-md border border-gray-300 px-4 py-2"
           />
           <button
