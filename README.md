@@ -17,7 +17,7 @@ This chatbot provides simple responses based on predefined pop culture reference
 1. Clone the repository:
 
 ```sh 
-git clone https://github.com/your-username/chatbot-webservice.git
+git clone https://github.com/ohannadeziderio/chatbot-webservice.git
 ```
 
 2. Navigate to the project directory:
