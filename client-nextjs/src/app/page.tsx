@@ -82,7 +82,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col justify-end bg-gray-100 p-4">
       <div className="w-full lg:w-1/2 mx-auto">
         {messages.length === 0 && (
-          <div className="flex flex-col items-center gap-4 pb-96">
+          <div className="flex flex-col items-center gap-4 pb-52">
             <h1 className="text-2xl font-bold mb-4">
               How can I help you today?
             </h1>
